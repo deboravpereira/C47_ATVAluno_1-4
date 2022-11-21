@@ -193,7 +193,10 @@ class Game {
   }
 
   //CRIE handleObstacleCollision
-
+  handleObstacleCollision(index) {
+    
+  
+  }
 
   showFuelBar() {
     push();
