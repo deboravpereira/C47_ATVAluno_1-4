@@ -159,7 +159,7 @@ class Game {
 
           this.handleFuel(index);
           this.handlePowerCoins(index);
-          //CHAME handleObstacleCollision
+         // Gerenciar colisões com obstáculos
 
           // Altere a posição da câmera na direção y
           camera.position.x = cars[index - 1].position.x;
@@ -195,7 +195,6 @@ class Game {
   //CRIE handleObstacleCollision
   handleObstacleCollision(index) {
     
-  
   }
 
   showFuelBar() {
